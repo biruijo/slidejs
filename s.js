@@ -22,9 +22,8 @@ function showSlides(n) {
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
-    }
     slides[slideIndex - 1].style.display = "block";
-}
+ }
 setInterval(function () {
     plusSlides(1);
-}, 5000);
+}, 3000);
